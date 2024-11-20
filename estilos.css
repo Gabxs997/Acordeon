@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+  }
+
+  .ancho {
+    max-width: 1200px;
+    /* border: 2px red solid; */
+    margin: auto;
+  }
+  .contentenedorpadre{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .contenedor1{
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+  }
+  .acordeon_titulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    border-top: 1px #ccc solid;
+    padding: 10px;
+    text-align: left;
+  }
+
+ .contentenedorpadre h2 {
+    font-weight: 600;
+  }
+
+  .acordeon_titulo h3{
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .acordeon_titulo i{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .acordeon_contenido{
+    border-bottom: 1px #ccc solid;
+    padding: 10px;
+  }
+  .acordeon_contenido p{
+    margin-left: 40px;
+    text-align: justify;
+  }
+  .contenedor2{
+    max-width: 500px;
+    /* border: 1px red solid; */
+    width: 100%;
+    padding: 10px ;
+  }
+  .contenedor2 h2{
+    margin-bottom: 10px;
+  }
+  .content_flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+  }
+
+.barra {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10px;
+  margin: 10px 0;
+  position: relative;
+}
+
+.barra-progress {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
+
+.barra-progress.progress-branding {
+  background-color: #4caf50; 
+}
+
+.barra-progress.progress-webdesign {
+  background-color: #2196f3; 
+}
+
+.barra-progress.progress-copywriting {
+  background-color: #ff9800; 
+}
+
+.barra-progress.progress-videoproduction {
+  background-color: #f44336; 
+}
